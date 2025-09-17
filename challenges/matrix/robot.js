@@ -45,5 +45,5 @@ Robot.prototype.getDir = function () {
 
 var obj = new Robot(3, 3);
 obj.step(10);
-console.log(obj.getPos()); // [2, 2]
-console.log(obj.getDir()); // "South"
+console.log(obj.getPos());
+console.log(obj.getDir());
